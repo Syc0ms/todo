@@ -74,14 +74,56 @@ a {
 }
 .todo {
     gap: 20px;
-    display: none;
 }
 .btns {
     margin-right: 20px;
     float: right;
     margin-left: auto;
+    display: flex;
+    gap: 10px;
 }
 .todoText {
     margin-left: 20px;
     font-size: 20px;
+    background: #111827;
+}
+
+.link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    background: linear-gradient(90deg, #EC4899 0%, #8B5CF6 100%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.edit {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+
+
+    text-transform: uppercase;
+
+    background: linear-gradient(90deg, #EC4899 0%, #8B5CF6 100%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+}
+
+.remove {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    background: #DC143C;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;   
 }
